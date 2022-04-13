@@ -56,3 +56,18 @@ docker build --file Dockerfile --tag file:v1 /root/
 git --version
 ansible --version
 jenkins --version
+ls -l
+git init
+git add .
+git rm --cached projCert
+git rm -f --cached projCert
+git commit -m "Pushing PHP website and Dckerfile to git"
+git status
+git log
+mkdir project1
+cp Dockerfile project1/
+cp website project1/
+cp -r website project1/
+cd project1/
+git init
+git config --global user.name "Shreya2209R"
