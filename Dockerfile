@@ -1,4 +1,4 @@
-FROM devopsedu/webapp
+FROM devopsedu/webapp AS build
 
 #MAINTAINER Shreya Rajput
 
